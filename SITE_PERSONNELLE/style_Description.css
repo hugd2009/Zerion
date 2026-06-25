@@ -1,0 +1,89 @@
+* {
+  /* border: 1px solid white; */
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  height: 22.8cm;
+  gap: 40px;
+}
+
+.texte1 {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  width: 800px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  font-size: 25px;
+  margin-left: 60px;
+}
+.texte2 {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  width: 700px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  font-size: 25px;
+  margin-left: 60px;
+}
+.texte3 {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  width: 800px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  font-size: 25px;
+  margin-left: 60px;
+}
+
+/* volet navigation1 */
+
+.navigation {
+  height: 60px;
+  background: black;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 17px 17px 14px 5px rgba(0, 0, 0, 0.46);
+  border-radius: 10px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  a {
+    text-decoration: none;
+  }
+}
+.titleNav {
+  font-family: "Zen Dots", sans-serif;
+  color: cyan;
+}
+
+.navigation1 {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+.navigation2 {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+.navigation3 {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}

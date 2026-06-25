@@ -1,0 +1,126 @@
+* {
+  /* border: 1px solid white; */
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 40;
+}
+
+.welcome {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  font-size: 55px;
+}
+.construction {
+  color: red;
+  font-family: "Orbitron", sans-serif;
+  padding: 15px;
+  border: 12px red;
+  border-style: dashed;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 10%;
+}
+
+.input-chat {
+  color: azure;
+  font-family: "Orbitron", sans-serif;
+  font-size: 25;
+  background-color: rgb(53, 53, 53);
+  box-shadow: 17px 17px 14px 5px rgba(0, 0, 0, 0.46);
+  padding: 10px;
+  border-radius: 10px;
+  resize: none;
+  width: 500px;
+  height: 150px;
+  margin-top: 120px;
+}
+
+.submit {
+  background-color: cyan;
+  box-shadow: 17px 17px 14px 5px rgba(0, 0, 0, 0.46);
+  margin-left: 15px;
+  margin-bottom: 10px;
+  height: 25px;
+  font-family: "Orbitron", sans-serif;
+}
+
+#message p {
+  font-family: "Orbitron", sans-serif;
+}
+.bulle-user {
+  color: white;
+  background-color: cyan;
+  margin-left: auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 20px;
+  max-width: 60%;
+  word-wrap: break-word;
+}
+.bulle-ia {
+  color: black;
+  background-color: white;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 20px;
+  max-width: 60%;
+  word-wrap: break-word;
+}
+
+/* volet navigation1 */
+
+.navigation {
+  height: 60px;
+  background: black;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 17px 17px 14px 5px rgba(0, 0, 0, 0.46);
+  border-radius: 10px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  a {
+    text-decoration: none;
+  }
+}
+.titleNav {
+  font-family: "Zen Dots", sans-serif;
+  color: cyan;
+}
+
+.navigation1 {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+.navigation2 {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+.navigation3 {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
