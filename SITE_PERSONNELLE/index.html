@@ -43,7 +43,6 @@
             type="button"
             value="Envoyer"
             onclick="envoyerMessage()"
-            onleydown="typeWriter(event)"
           />
         </div>
       </div>
@@ -53,6 +52,7 @@
           <textarea
             class="input-chat"
             id="input-chat"
+            onkeydown="typeWriter(event)"
             placeholder="Ecrire un message ..."
           ></textarea>
           <input
