@@ -22,7 +22,7 @@ async function envoyerMessage() {
     document.getElementById("input-chat").value = "";
   }
 
-  const response = await fetch("https://managing-unseemly-unfixed.ngrok-free.dev/api/chat", {
+  const response = await fetch("http://192.168.1.131:11434/api/chat", {
     method: "POST",
     body: JSON.stringify({
       model: "llama3.2",
