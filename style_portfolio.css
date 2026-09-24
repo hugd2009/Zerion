@@ -72,6 +72,7 @@ html {
   margin-top: 20px;
   background-color: cyan;
   box-shadow: 17px 17px 14px 5px rgba(0, 0, 0, 0.46);
+  box-shadow: 10px 10px 7px 3px black;
   margin-left: 15px;
   margin-bottom: 10px;
   font-family: "Orbitron", sans-serif;
@@ -80,9 +81,7 @@ html {
   padding: 8px;
 }
 .submit:hover {
-  background-color: rgb(129, 245, 245);
-  /* font-size: 30; */
-  box-shadow: 17px 17px 14px 5px black;
+  background-color: rgb(0, 161, 161);
 }
 .telecharger {
   font-family: "Zen Dots", sans-serif;
@@ -122,18 +121,14 @@ html {
 .box1 {
   background-color: black;
   box-shadow: 17px 17px 14px 5px rgba(0, 0, 0, 0.46);
+  border: 2px groove cyan;
   border-radius: 10px;
   height: 400px;
   width: 500px;
 }
 .box1:hover {
-  background-color: black;
   box-shadow: 17px 17px 14px 5px rgba(0, 255, 242, 0.46);
-  border-radius: 10px;
-  height: 450px;
-  width: 550px;
   transition: 0.2s ease-in-out;
-  transform: translateY (-10px);
 }
 /* Box-Langue */
 .titre-langue {
@@ -337,13 +332,8 @@ html {
   color: white;
   font-family: "Orbitron", sans-serif;
 }
-.navigation2 {
-  color: white;
-  font-family: "Orbitron", sans-serif;
-}
-.navigation3 {
-  color: white;
-  font-family: "Orbitron", sans-serif;
+.navigation1:hover {
+  color: cyan;
 }
 
 /* Navigation2 */
@@ -394,46 +384,3 @@ html {
   font-family: "Zen Dots", sans-serif;
   color: cyan;
 }
-
-.navigation1_2 {
-  font-family: "Orbitron", sans-serif;
-  color: white;
-}
-.navigation1_2:hover {
-  font-size: 20px;
-  transition: ease-in-out 30ms;
-}
-.navigation4_2 {
-  font-family: "Orbitron", sans-serif;
-  color: white;
-}
-.navigation4_2:hover {
-  font-size: 20px;
-}
-.navigation2_2 {
-  font-family: "Orbitron", sans-serif;
-  color: white;
-}
-.navigation2_2:hover {
-  font-size: 20px;
-}
-.navigation3_2 {
-  font-family: "Orbitron", sans-serif;
-  color: white;
-}
-.navigation3_2:hover {
-  font-size: 20px;
-}
-.navigation5_2 {
-  font-family: "Orbitron", sans-serif;
-  color: white;
-}
-.navigation5_2:hover {
-  font-size: 20px;
-  transition: 0.08s ease-in;
-  transition: 0.08s ease-out;
-}
-
-/* transition: 0.4;
-:hover
-transform: translateY (-10px); */

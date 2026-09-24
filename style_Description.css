@@ -79,11 +79,6 @@ body {
   color: white;
   font-family: "Orbitron", sans-serif;
 }
-.navigation2 {
-  color: white;
-  font-family: "Orbitron", sans-serif;
-}
-.navigation3 {
-  color: white;
-  font-family: "Orbitron", sans-serif;
+.navigation1:hover {
+  color: cyan;
 }

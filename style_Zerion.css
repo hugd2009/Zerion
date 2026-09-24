@@ -58,6 +58,9 @@ body {
   height: 25px;
   font-family: "Orbitron", sans-serif;
 }
+.submit:hover {
+  background-color: rgb(0, 161, 161);
+}
 
 #message p {
   font-family: "Orbitron", sans-serif;
@@ -85,7 +88,7 @@ body {
   word-wrap: break-word;
 }
 
-/* volet navigation1 */
+/* volet navigation */
 
 .navigation {
   height: 60px;
@@ -117,11 +120,6 @@ body {
   color: white;
   font-family: "Orbitron", sans-serif;
 }
-.navigation2 {
-  color: white;
-  font-family: "Orbitron", sans-serif;
-}
-.navigation3 {
-  color: white;
-  font-family: "Orbitron", sans-serif;
+.navigation1:hover {
+  color: cyan;
 }
