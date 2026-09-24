@@ -22,12 +22,16 @@ async function envoyerMessage() {
     document.getElementById("input-chat").value = "";
   }
 
-  const response = await fetch("http://192.168.1.131:11434/api/chat", {
+  const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer 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",
+    },
     body: JSON.stringify({
-      model: "llama3.2",
+      model: "qwen/qwen3.8-27b",
       messages: [{ role: "user", content: message }],
-      stream: false,
+      max_tokens: 1024,
     }),
   });
 
@@ -39,7 +43,7 @@ async function envoyerMessage() {
   document.getElementById("message").appendChild(bulle);
 
   const bulleIA = document.createElement("p");
-  bulleIA.innerText = data.message.content;
+  bulleIA.innerText = data.choices[0].message.content;
   bulleIA.classList.add("bulle-ia");
   document.getElementById("message").appendChild(bulleIA);
 }
